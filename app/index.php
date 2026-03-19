@@ -1,6 +1,6 @@
 <?php
 // 1. กำหนดค่าการเชื่อมต่อฐานข้อมูลโดยดึงชื่อจาก .env [5]
-$host = 'db-server'; // แก้ไขให้ตรงกับค่าทีอยู่ใน Docker Compose หรือ .env
+$host = 'db-node'; // แก้ไขให้ตรงกับค่าทีอยู่ใน Docker Compose หรือ .env
 $user = 'root'; // แก้ไขให้ตรงกับค่าที่อยู่ใน Docker Compose หรือ .env
 $db   = 'nattaya-db'; // แก้ไขให้ตรงกับค่าที่อยู่ใน Docker Compose หรือ .env
 
