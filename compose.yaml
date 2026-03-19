@@ -41,7 +41,7 @@ services:
       - source: my-nginx-conf # (3.4) เติมชื่อ Config ที่ประกาศด้านล่าง [10]
         target: /etc/nginx/conf.d/default.conf
     networks:
-      - frontead-zone  # (3.5) เชื่อมกับผู้ใช้ภายนอก [2]
+      - fronted-zone  # (3.5) เชื่อมกับผู้ใช้ภายนอก [2]
       - backend-zone
     depends_on:
       - db-node
